@@ -1,0 +1,46 @@
+.navigation {
+  border-bottom: solid 1px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.navleft {
+  margin-left: 100px;
+  .smile {
+    color: white;
+    background-color: black;
+  }
+}
+
+.navright {
+  margin-right: 100px;
+  #SUbutton {
+    width: 90px;
+    border-radius: 5px;
+    border: solid 1px blue;
+    background-color: white;
+  }
+}
+
+// ----------------------------------------------
+
+.headerMain {
+  display: flex;
+  padding: 100px;
+}
+
+.headerLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.headerRight {
+  width: 50%;
+}
+.mainimg {
+  width: 100%;
+}

@@ -1,6 +1,87 @@
+/*  regole generali della pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* font */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: flex;
+}
+
+li {
+  padding: 10px;
+}
+
 .container {
   border: solid 1px blue;
   width: 100%;
   height: 800px;
+}
+
+.navigation {
+  border-bottom: solid 1px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+.navleft {
+  margin-left: 100px;
+}
+
+.navleft .smile {
+  color: white;
+  background-color: black;
+}
+
+.navright {
+  margin-right: 100px;
+}
+
+.navright #SUbutton {
+  width: 90px;
+  border-radius: 5px;
+  border: solid 1px blue;
+  background-color: white;
+}
+
+.headerMain {
+  display: -webkit-box;
+  display: flex;
+  padding: 100px;
+}
+
+.headerLeft {
+  width: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.headerRight {
+  width: 50%;
+}
+
+.mainimg {
+  width: 100%;
 }
 
