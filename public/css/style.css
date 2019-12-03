@@ -24,9 +24,13 @@ li {
 }
 
 .container {
-  border: solid 1px blue;
+  border: solid blue;
   width: 100%;
   height: 800px;
+}
+
+header {
+  border: solid yellow;
 }
 
 .navigation {
@@ -56,6 +60,8 @@ li {
   border-radius: 5px;
   border: solid 1px blue;
   background-color: white;
+  color: #233569;
+  font-weight: bold;
 }
 
 .headerMain {
@@ -83,5 +89,25 @@ li {
 
 .mainimg {
   width: 100%;
+}
+
+.buttonH {
+  width: 120px;
+  border-radius: 5px;
+  background-color: #233569;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.divBottoni {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+main {
+  border: solid green;
 }
 
