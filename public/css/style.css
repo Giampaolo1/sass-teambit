@@ -23,32 +23,16 @@ li {
   padding: 10px;
 }
 
-.divBottoni {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  text-align: center;
-}
-
 .divBottoni .buttonH {
   width: 120px;
   border-radius: 5px;
   background-color: #233569;
   color: white;
-  margin: 10px;
   padding: 10px;
 }
 
 .container {
-  border: solid 0.5px blue;
   width: 100%;
-}
-
-header {
-  border: solid yellow;
 }
 
 .navigation {
@@ -120,7 +104,6 @@ section {
 }
 
 main {
-  border: solid green;
   background-color: #FFE7D2;
 }
 
@@ -132,8 +115,7 @@ main h2 {
   -webkit-box-align: center;
           align-items: center;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 60px;
 }
 
 main h3 {
@@ -248,7 +230,7 @@ main h3 {
   width: 100%;
 }
 
-.imgCeo {
+.CEOpart {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -256,22 +238,17 @@ main h3 {
   -webkit-box-align: center;
           align-items: center;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
-.imgCeo img {
-  width: 50%;
+.CEOpart img {
+  width: 70%;
 }
 
-.usemail {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 12px;
+.CEOpart .usemail {
+  padding: 30px;
 }
 
 footer {

@@ -1,14 +1,18 @@
+// DEBUG:
+// main {
+//   border: solid green;
+// }
+
 section {
   background-color: $brand_primary;
 }
 
+
 main {
-  border: solid green;
   background-color: $site_primary;
   h2 {
     @include flex-center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 60px;
   }
   h3 {
     font-weight: 400;
@@ -88,15 +92,13 @@ main {
 
 // imgCeo
 
-.imgCeo {
+.CEOpart {
   @include flex-center;
+  flex-direction: column;
   img {
-    width: 50%;
+    width: 70%;
   }
-}
-
-.usemail {
-  @include flex-center;
-  margin-bottom: 30px;
-  font-size: 12px;
+  .usemail {
+    padding: 30px;
+  }
 }
