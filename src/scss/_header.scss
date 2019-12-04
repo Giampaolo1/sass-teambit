@@ -4,7 +4,10 @@ header{
 }
 
 .navigation {
-  // position: fixed;
+  position: fixed;
+  width: 100%;
+  background: $brand_primary;
+  top: 0;
   border-bottom: solid 1px;
   display:flex;
   justify-content: space-between;
@@ -38,8 +41,8 @@ header{
     width: 50%;
     @include flex-center;
     flex-direction: column;
+    text-align: left;
     }
-
   .headerRight {
     width: 50%;
     .mainimg {

@@ -5,7 +5,6 @@ section {
 main {
   border: solid green;
   background-color: $site_primary;
-
   h2 {
     @include flex-center;
     margin-top: 50px;
@@ -70,9 +69,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: left;
     img {
       width: 40%;
       padding: 20px;
+    }
+    h1,h3{
+      display: block;
     }
   }
   .mainSectionRight2{
