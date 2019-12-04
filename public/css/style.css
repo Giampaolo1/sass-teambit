@@ -26,7 +26,7 @@ li {
 .container {
   border: solid blue;
   width: 100%;
-  height: 800px;
+  height: 1000px;
 }
 
 header {
@@ -42,20 +42,20 @@ header {
   font-size: 18px;
 }
 
-.navleft {
+.navigation .navleft {
   margin-left: 100px;
 }
 
-.navleft .smile {
+.navigation .navleft .smile {
   color: white;
   background-color: black;
 }
 
-.navright {
+.navigation .navright {
   margin-right: 100px;
 }
 
-.navright #SUbutton {
+.navigation .navright #SUbutton {
   width: 90px;
   border-radius: 5px;
   border: solid 1px blue;
@@ -70,7 +70,7 @@ header {
   padding: 100px;
 }
 
-.headerLeft {
+.headerMain .headerLeft {
   width: 50%;
   display: -webkit-box;
   display: flex;
@@ -83,15 +83,16 @@ header {
           flex-direction: column;
 }
 
-.headerRight {
-  width: 50%;
+.headerMain .headerLeft .divBottoni {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
-.mainimg {
-  width: 100%;
-}
-
-.buttonH {
+.headerMain .headerLeft .divBottoni .buttonH {
   width: 120px;
   border-radius: 5px;
   background-color: #233569;
@@ -100,14 +101,46 @@ header {
   padding: 10px;
 }
 
-.divBottoni {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
+.headerMain .headerRight {
+  width: 50%;
+}
+
+.headerMain .headerRight .mainimg {
+  width: 100%;
 }
 
 main {
   border: solid green;
+}
+
+main h2 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.cont3imgs {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.cont3imgs .cont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: column;
+          justify-content: column;
+}
+
+.cont3imgs .cont img {
+  width: 20%;
 }
 

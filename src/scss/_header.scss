@@ -1,3 +1,4 @@
+// DEBUG:
 header{
   border: solid yellow;
 }
@@ -7,25 +8,23 @@ header{
   display:flex;
   justify-content: space-between;
   font-size: 18px;
-}
-
-.navleft {
-  margin-left: 100px;
-  .smile {
-    color: white;
-    background-color: black;
+  .navleft {
+    margin-left: 100px;
+    .smile {
+      color: $brand_primary;
+      background-color: black;
+    }
   }
-}
-
-.navright {
-  margin-right: 100px;
-  #SUbutton {
-    width: 90px;
-    border-radius: 5px;
-    border: solid 1px blue;
-    background-color: white;
-    color: #233569;
-    font-weight: bold;
+  .navright {
+    margin-right: 100px;
+    #SUbutton {
+      width: 90px;
+      border-radius: 5px;
+      border: solid 1px blue;
+      background-color: $brand_primary;
+      color: $buttons;
+      font-weight: bold;
+    }
   }
 }
 
@@ -34,32 +33,26 @@ header{
 .headerMain {
   display: flex;
   padding: 100px;
-}
-
-.headerLeft {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.headerRight {
-  width: 50%;
-}
-.mainimg {
-  width: 100%;
-}
-
-.buttonH {
-    width: 120px;
-    border-radius: 5px;
-    background-color: #233569;
-    color: white;
-    margin: 10px;
-    padding: 10px;
+  .headerLeft {
+    width: 50%;
+    @include flex-center;
+    flex-direction: column;
+    .divBottoni {
+      @include flex-center;
+      .buttonH {
+        width: 120px;
+        border-radius: 5px;
+        background-color: $buttons;
+        color: $brand_primary;
+        margin: 10px;
+        padding: 10px;
+      }
+    }
   }
-.divBottoni {
-  display: flex;
-  align-items: center;
+  .headerRight {
+    width: 50%;
+    .mainimg {
+      width: 100%;
+    }
+  }
 }
