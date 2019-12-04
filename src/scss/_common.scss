@@ -18,3 +18,15 @@ ul {
 li {
   padding: 10px;
 }
+
+.divBottoni {
+  @include flex-center;
+  .buttonH {
+    width: 120px;
+    border-radius: 5px;
+    background-color: $buttons;
+    color: $brand_primary;
+    margin: 10px;
+    padding: 10px;
+  }
+}

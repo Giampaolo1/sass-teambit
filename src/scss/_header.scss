@@ -38,18 +38,8 @@ header{
     width: 50%;
     @include flex-center;
     flex-direction: column;
-    .divBottoni {
-      @include flex-center;
-      .buttonH {
-        width: 120px;
-        border-radius: 5px;
-        background-color: $buttons;
-        color: $brand_primary;
-        margin: 10px;
-        padding: 10px;
-      }
     }
-  }
+
   .headerRight {
     width: 50%;
     .mainimg {
