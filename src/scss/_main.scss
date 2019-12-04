@@ -1,40 +1,90 @@
+section {
+  background-color: $brand_primary;
+}
+
 main {
   border: solid green;
   background-color: $site_primary;
-  height: 2000px;
 
   h2 {
     @include flex-center;
     margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-weight: 400;
   }
 }
 
 .cont3imgs {
   @include flex-center;
   margin-top: 100px;
-    .cont {
-      width: 25%;
-      @include flex-center;
-      flex-direction: column;
+  .cont {
+    width: 25%;
+    @include flex-center;
+    flex-direction: column;
+    img {
+      width: 30%;
+    }
+    span {
+      text-align: center;
+    }
+    &.c3_3 {
       img {
-        width: 30%;
-      }
-      span {
-        text-align: center;
-      }
-      .c3.3 {
-        img {
-          width: 5%;
-        }
+        width: 12%;
       }
     }
+  }
 }
 .conConf {
   margin-top: 80px;
   margin-bottom: 80px;
+  border-bottom: solid 1px;
   padding-bottom: 80px;
   @include flex-center;
   img {
     width: 20%;
   }
 }
+
+// Main part 2
+
+.mainSection {
+  display: flex;
+  padding-top: 100px;
+  .mainSectionLeft {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .mainSectionRight {
+    width: 50%;
+    img {
+      width: 40%;
+      padding: 20px;
+    }
+  }
+  .mainSectionLeft2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: justify;
+
+    img {
+      width: 40%;
+      padding: 20px;
+    }
+  }
+  .mainSectionRight2{
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+
+
+}
+
+// repeat 2 inverted
